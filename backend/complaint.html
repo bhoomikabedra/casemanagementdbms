@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complaint Page</title>
+</head>
+<body>
+    <h1>File a Complaint</h1>
+    <form action="/submit-complaint" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="aadhar">Aadhar:</label>
+        <input type="text" id="aadhar" name="aadhar" required><br>
+
+        <label for="phone_number">Phone Number:</label>
+        <input type="text" id="phone_number" name="phone_number" required><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="text" id="dob" name="dob" required><br>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required><br>
+
+        <label for="date_of_crime">Date of Crime:</label>
+        <input type="text" id="date_of_crime" name="date_of_crime" required><br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea><br>
+
+        <button type="submit">Submit Complaint</button>
+    </form>
+</body>
+</html>
