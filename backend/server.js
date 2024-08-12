@@ -191,13 +191,13 @@ function sendEmailToVictim(victimId) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'kumbru.03@gmail.com',
-        pass: 'xvsy hboz ozfl exep'
+        user: 'your mail id here',
+        pass: 'your email id password here'
       }
     });
 
     const mailOptions = {
-      from: 'kumbru.03@gmail.com',
+      from: 'your email id here',
       to: victimEmail,
       subject: 'Complaint Filed Successfully',
       text: 'Thank you for filing a complaint. Your complaint has been submitted successfully.Visit the website for more updates.'
